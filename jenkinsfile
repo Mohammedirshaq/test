@@ -3,7 +3,7 @@ agent any
   stages{
     stage("st-1"){
         steps{
-          echo "okay  sam"
+          echo "okay  sam 125212"
       }
     }
   }
