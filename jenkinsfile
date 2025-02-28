@@ -3,8 +3,7 @@ agent any
   stages{
     stage("st-1"){
         steps{
-          echo "not okay 4 where"
-          
+          echo "not okay 5 where"
       }
     }
   }
