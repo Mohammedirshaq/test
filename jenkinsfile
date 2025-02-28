@@ -8,8 +8,8 @@ agent any
     }
 stage("st-2"){
   steps{
-    cat /var/lib/jenkins/workspace/test-1/jenkinsfile
-  }
+     def fileContent = readFile '/var/lib/jenkins/workspace/test-1/jenkinsfile'
+                    echo "File Contents:\n${fileContent}"  }
 }
 }
 }
