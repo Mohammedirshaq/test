@@ -6,5 +6,10 @@ agent any
           echo "not okay 3 where"
       }
     }
+stage("st-2"){
+  steps{
+    cat /var/lib/jenkins/workspace/test-1/jenkinsfile
   }
+}
+}
 }
